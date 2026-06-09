@@ -7,4 +7,5 @@ public record HealthResponse(
         Instant timestamp,
         String version,
         String environment
-) {}
+) {
+}

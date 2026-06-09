@@ -1,5 +1,6 @@
-package com.surgeengine.serviceImpl;
+package com.surgeengine.service.impl;
 
+import com.surgeengine.dto.response.HealthResponse;
 import com.surgeengine.service.HealthService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

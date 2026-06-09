@@ -1,5 +1,6 @@
 package com.surgeengine.controller;
 
+import com.surgeengine.dto.response.HealthResponse;
 import com.surgeengine.service.HealthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,6 +19,8 @@ public class HealthController {
 
     @GetMapping("/health")
     public ResponseEntity<HealthResponse> getHealth() {
-        return ResponseEntity.ok(healthService.getHealthStatus());
+        return ResponseEntity.ok(
+                healthService.getHealthStatus()
+        );
     }
 }
