@@ -1,4 +1,4 @@
-package com.rohit.surge_engine;
+package com.surgeengine;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
